@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="body">
+    <div id="mainDiv">
+
+        <div id="centerDiv">
+            <div id="banner">
+               <img src="img/GoldenRockBanner3.png">
+            </div>
+            <div id="markGarentee"><img src="img/markGarantee.png"></div>
+            <div class="menu">
+
+                <div class="btn_menu" id="btn_contact">CALL NOW For Estimation: (416)555 - 5555</div>
+                <div class="btn_menu">
+                    <ul>
+                        <li><a class="btn" href="#/view1">Home</a></li>
+                        <li><a class="btn" href="#/view2">Services</a></li>
+                        <li><a class="btn" href="#/view3">Backyard</a></li>
+                        <li><a class="btn" href="#/view4">Woodwork</a></li>
+                        <li><a class="btn" href="#/view5">Project</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div ng-view></div>
+        </div>
+    </div>
+
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+  -->
+  </div>
+ <script src=" http://documentcloud.github.io/underscore/underscore-min.js"></script>
+
+ <script src="lib/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+  <script src="css/bootstrap/js/bootstrap.js"></script>
+  <script src="css/bootstrap/js/bootstrap.min.js"></script>
+  <script src="css/bootstrap/js/init.js"></script>
+
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.js"></script>
+  <script src="http://angular-ui.github.com/bootstrap/ui-bootstrap-tpls-0.2.0.js"></script>
+
+</body>
+</html>

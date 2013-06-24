@@ -1,0 +1,81 @@
+/* app css stylesheet */
+body{
+   /*background-image: url("../img/images/background4.png");*/
+    background: #000305; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzJSIgc3RvcC1jb2xvcj0iIzAwMDMwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzUyYjE1MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU3JSIgc3RvcC1jb2xvcj0iIzUzYzY1MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk3JSIgc3RvcC1jb2xvcj0iIzAwMDAwMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(left,  #000305 3%, #52b152 44%, #53c653 57%, #000002 97%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(3%,#000305), color-stop(44%,#52b152), color-stop(57%,#53c653), color-stop(97%,#000002)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #000305 3%,#52b152 44%,#53c653 57%,#000002 97%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #000305 3%,#52b152 44%,#53c653 57%,#000002 97%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #000305 3%,#52b152 44%,#53c653 57%,#000002 97%); /* IE10+ */
+    background: linear-gradient(to right,  #000305 3%,#52b152 44%,#53c653 57%,#000002 97%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000305', endColorstr='#000002',GradientType=1 ); /* IE6-8 */
+
+    height: 100%; width: 100%;
+}
+.menu {
+    text-align: left;
+    margin-top: -73px;
+    height: 50px;
+    width: 960px; margin-left: -22px;
+    padding-bottom: 45px;
+    background-image: url("../img/images/built1.png");
+}
+#mainDiv{
+    width: 958px; margin-right: auto; margin-left:auto;
+}
+#centerDiv{
+    width: 916px; margin-right: auto; margin-left:auto;
+    background-color: #fcfcfc;
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 30px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 30px rgba(0, 0, 0, 1);
+}
+#markGarentee{
+    height: 73px;
+    padding-left: 800px;
+}
+
+#carouse{
+    width: 916px; margin-top: -19px;
+    background-color: #202221;
+}
+
+#banner{
+    width: 916px; margin-left: auto; margin-right: auto;
+    border-style: groove;
+}
+
+#leftContent{
+    position: relative;
+    padding: 15px;
+}
+#btn_contact{
+    color: #c4e3f3; font-family: sans-serif; font-size: 20px;
+    margin-top: 50px; padding-left: 150px;
+}
+.btn_menu{
+    float: left;
+    margin-left: -140px;
+}
+/*#rightContent{*/
+    /*position: relative;*/
+    /*margin-right: 150px;*/
+/*}*/
+
+.floatRight{
+    position: relative;
+    width:550px;
+}
+li{
+    display: inline;
+}
+.btnbutton{
+    background-color: darkgreen;
+}
+.content_text{
+    border-style: groove;
+    display: table-cell;
+    padding: 15px;
+}

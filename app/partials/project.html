@@ -1,0 +1,31 @@
+<div id="project_min_content_div">
+    <div id="leftContent">
+        <div id="album_image">
+            <img ng-src="{{current_image.imageUrl}}">
+        </div>
+        <div id="thumb_wrapper">
+            <ul id="thumb_list">
+                <li ng-repeat="list_image in imagesList" ng-click="setCurrentImage(list_image)">
+                    <img ng-src="{{list_image.imageUrl}}"id="image_siz">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="rightContent">
+        <div id="album_image1">
+            {{current_image.name}}
+        </div>
+        <!--<div id="thumb_wrapper1">-->
+            <!--<ul id="thumb_list1">-->
+                <!--&lt;!&ndash;<li ng-repeat="list_image in imagesList" ng-click="setCurrentImage(list_image)">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;</li>&ndash;&gt;-->
+            <!--</ul>-->
+        <!--</div>-->
+    </div>
+
+
+    <div class="clear"></div>
+</div>
+

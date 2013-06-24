@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "img/images/newImages/rockImage/banarImage.PNG",
+        "name": "Aluminum"
+    },
+    {
+        "id": 2,
+        "imageUrl": "img/images/newImages/rockImage/banarImage1.PNG",
+        "name": "Aluminum"
+    },
+    {
+        "id": 3,
+        "imageUrl": "img/images/newImages/rockImage/banarImage2.PNG",
+        "name": "Aluminum"
+    },
+    {
+        "id": 4,
+        "imageUrl": "img/images/newImages/rockImage/banarImage3.PNG",
+        "name": "Chorme"
+    },
+    {
+        "id": 5,
+        "imageUrl": "img/images/newImages/rockImage/banarImage4.PNG",
+        "name": "CopperRad"
+    },
+    {
+        "id": 6,
+        "imageUrl": "img/images/newImages/rockImage/banarImage5.PNG",
+        "name": "Copper"
+    },
+    {
+        "id": 7,
+        "imageUrl": "img/images/newImages/rockImage/banarImage6.PNG",
+        "name": "Air-Condition"
+    },
+    {
+        "id": 8,
+        "imageUrl": "img/images/newImages/rockImage/banarImage7.PNG",
+        "name": "CopperRad"
+    },
+    {
+        "id": 9,
+        "imageUrl": "img/images/newImages/rockImage/banarImage8.PNG",
+        "name": "CopperRad"
+    },
+    {
+        "id": 10,
+        "imageUrl": "img/images/newImages/rockImage/banarImage9.PNG",
+        "name": "CopperRad"
+    },
+    {
+        "id": 11,
+        "imageUrl": "img/images/newImages/rockImage/banarImage10.PNG",
+        "name": "CopperRad"
+    },
+    {
+        "id": 12,
+        "imageUrl": "img/images/newImages/rockImage/banarImage11.PNG",
+        "name": "CopperRad"
+    }
+]
